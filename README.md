@@ -1,4 +1,4 @@
-# Manhunt 2 revolver reload fix
+# Manhunt 2 Revolver Reload Fix
 
 An ASI plugin for Manhunt 2 (PC) that fixes a vanilla engine bug: after you reload the pump
 shotgun (`Shotgun_(CT)` or `Shotgun_Torch_(CT)`) with shells still in it, the 6-shooter's next
