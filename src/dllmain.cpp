@@ -1,5 +1,5 @@
 // ReloadFixes.asi - Manhunt 2 PC (Manhunt2.exe, image base 0x400000, no ASLR). Port of the
-// Manhunt 1 ReloadFixes (github.com/ZT-1/ManhuntRevolverReloadFix): the same engine bugs at MH2's
+// Manhunt 1 ReloadFixes (github.com/ZT-1/ManhuntReloadFixes): the same engine bugs at MH2's
 // addresses. Each fix can be turned on or off in ReloadFixes.ini (next to the .asi). All are on
 // if the .ini is missing.
 //

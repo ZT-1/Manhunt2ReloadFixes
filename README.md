@@ -11,7 +11,7 @@ or off in `ReloadFixes.ini`.
 | `ShotgunLastShell` | The pump shotgun's last spent shell comes out late in the reload, just before the closing pump, instead of on the pump after the last shot. |
 
 This is the Manhunt 2 version of the Manhunt 1 plugin,
-[ManhuntRevolverReloadFix](https://github.com/ZT-1/ManhuntRevolverReloadFix), which has the full
+[ManhuntReloadFixes](https://github.com/ZT-1/ManhuntReloadFixes), which has the full
 analysis of each bug. The same engine code is in both games, at different addresses.
 
 ## Install
