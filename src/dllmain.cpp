@@ -1,7 +1,7 @@
 // ReloadFixes.asi - Manhunt 2 PC (Manhunt2.exe, image base 0x400000, no ASLR). Port of the
 // Manhunt 1 ReloadFixes (github.com/ZT-1/ManhuntReloadFixes): the same engine bugs at MH2's
 // addresses. Each fix can be turned on or off in ReloadFixes.ini (next to the .asi). All are on
-// if the .ini is missing.
+// (and logging off) if the .ini is missing.
 //
 // The revolver and shotgun-queue bugs come from one per-ped flag: CPed+0x308 bit 0x40, "this
 // looped reload started with rounds still loaded, so cut the reload anim when RELOAD_LOOP ends".
@@ -281,7 +281,7 @@ namespace
 
     void Install()
     {
-        g_log = ReadOption("Log", true);
+        g_log = ReadOption("Log", false);
         const bool revolver = ReadOption("RevolverFlick", true);
         const bool queued   = ReadOption("ShotgunQueuedReload", true);
         g_sniperLastCasing  = ReadOption("SniperLastCasing", true);
